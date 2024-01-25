@@ -6,7 +6,7 @@ CREATE TABLE DimCustomer (
 	City varchar(50) NOT NULL,
 	NoHP varchar(50) NOT NULL,
 	Constraint PK_DimCustomer PRIMARY KEY (CustomerID)
-)
+);
 
 CREATE TABLE DimProduct (
 	ProductID int NOT NULL,
@@ -14,7 +14,7 @@ CREATE TABLE DimProduct (
 	ProductCategory varchar(255) NOT NULL,
 	ProductUnitPrice int NULL,
 	Constraint PK_DimProduct PRIMARY KEY (ProductID)
-)
+);
 
 CREATE TABLE DimStatusOrder (
 	StatusID int NOT NULL,
